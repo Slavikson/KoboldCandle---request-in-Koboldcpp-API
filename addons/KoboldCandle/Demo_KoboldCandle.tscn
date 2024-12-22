@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://di6wbl45bs4xd"]
+
+[ext_resource type="Script" path="res://addons/KoboldCandle/demo_kobold_candle.gd" id="1_wxfxo"]
+[ext_resource type="Script" path="res://addons/KoboldCandle/KoboldCandle.gd" id="2_kli8s"]
+
+[node name="DemoKoboldCandle" type="Node2D"]
+script = ExtResource("1_wxfxo")
+
+[node name="KoboldCandle" type="Node" parent="."]
+script = ExtResource("2_kli8s")
+stream = false
